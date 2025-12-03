@@ -1,0 +1,94 @@
+/* Reset Básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do Cabeçalho */
+.cabecalho {
+    background-color: #333; /* Cinza Escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    margin-bottom: 5px;
+}
+
+/* Layout Principal: usa Flexbox para as colunas */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto; /* Centraliza e adiciona margem no topo/base */
+    padding: 0 20px;
+}
+
+/* Área de Posts */
+.posts {
+    flex: 3; /* Ocupa 3/4 do espaço */
+    padding-right: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.post h2 {
+    color: #007bff; /* Azul */
+    margin-bottom: 5px;
+}
+
+.post .data {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.post a {
+    color: #28a745; /* Verde */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Barra Lateral */
+.barra-lateral {
+    flex: 1; /* Ocupa 1/4 do espaço */
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.barra-lateral h3 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.barra-lateral ul {
+    list-style: none;
+}
+
+.barra-lateral li {
+    margin-bottom: 5px;
+}
+
+.barra-lateral a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
