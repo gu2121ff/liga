@@ -1,5 +1,6 @@
 /* Reset Básico para remover margens e preenchimentos padrão */
 * {
+    background-color: gray;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +9,7 @@
 
 /* Estilo do Cabeçalho */
 .cabecalho {
-    background-color: #333,#0000FF; /* Cinza Escuro */
+    background-color: #333; /* Cinza Escuro */
     color: white;
     padding: 20px;
     text-align: center;
