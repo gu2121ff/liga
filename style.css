@@ -1,6 +1,6 @@
 /* Reset Básico para remover margens e preenchimentos padrão */
 * {
-    background-color: gray;
+    background-color: #F0E6F5;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
